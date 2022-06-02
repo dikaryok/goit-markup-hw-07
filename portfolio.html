@@ -20,43 +20,55 @@
   </head>
   <body>
     <header class="header">
-      <nav class="container header-nav">
-        <a class="link logo" href="./index.html" lang="en"
-          ><span class="logo-part">Web</span>Studio
+      <nav class="container nav">
+        <a class="link logo nav__logo--position" href="./index.html" lang="en"
+          ><span class="logo--blue">Web</span>Studio
         </a>
+
         <ul class="list menu">
-          <li class="menu-item">
-            <a class="link menu-link" href="./index.html">Студия</a>
+          <li class="menu__item">
+            <a class="link menu__link" href="./index.html">Студия</a>
           </li>
-          <li class="menu-item">
-            <a class="link menu-link current" href="./portfolio.html"
+          <li class="menu__item">
+            <a
+              class="link menu__link menu__link--current"
+              href="./portfolio.html"
               >Портфолио</a
             >
           </li>
-          <li class="menu-item">
-            <a class="link menu-link" href="#">Контакты</a>
+          <li class="menu__item">
+            <a class="link menu__link" href="#">Контакты</a>
           </li>
         </ul>
-        <ul class="list contacts">
-          <li class="contacts-list">
+
+        <ul class="list contacts contacts--position">
+          <li class="contacts__item--position">
             <a
-              class="link contacts-list-link mail"
+              class="link contacts__link contacts__link--position"
               href="mailto:info@devstudio.com"
               title="Отправить письмо"
             >
-              <svg class="contacts-icon mail-icon" width="16" height="12">
+              <svg
+                class="contacts__icon contacts__icon--position"
+                width="16"
+                height="12"
+              >
                 <use href="./images/svg/icons.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contacts-list">
+          <li class="contacts__item--position">
             <a
-              class="link contacts-list-link tel"
+              class="link contacts__link contacts__link--position"
               href="tel:0961111111"
               title="Набрать номер"
             >
-              <svg class="contacts-icon phone-icon" width="10" height="16">
+              <svg
+                class="contacts__icon contacts__icon--position"
+                width="10"
+                height="16"
+              >
                 <use href="./images/svg/icons.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -69,251 +81,251 @@
       <section class="section">
         <div class="buttons container">
           <!--BUTTONS-->
-          <h2 class="buttons-title" hidden>Buttons</h2>
-          <ul class="list button-list">
-            <li class="button-item">
-              <button class="button-pic current" type="button">Все</button>
+          <h2 class="buttons__title" hidden>Buttons</h2>
+          <ul class="list button__list button__list--position">
+            <li class="button__item">
+              <button class="button__pic current" type="button">Все</button>
             </li>
-            <li class="button-item">
-              <button class="button-pic" type="button">Веб-сайты</button>
+            <li class="button__item button__item--position">
+              <button class="button__pic" type="button">Веб-сайты</button>
             </li>
-            <li class="button-item">
-              <button class="button-pic" type="button">Приложения</button>
+            <li class="button__item button__item--position">
+              <button class="button__pic" type="button">Приложения</button>
             </li>
-            <li class="button-item">
-              <button class="button-pic" type="button">Дизайн</button>
+            <li class="button__item button__item--position">
+              <button class="button__pic" type="button">Дизайн</button>
             </li>
-            <li class="button-item">
-              <button class="button-pic" type="button">Маркетинг</button>
+            <li class="button__item button__item--position">
+              <button class="button__pic" type="button">Маркетинг</button>
             </li>
           </ul>
           <!--examples-->
-          <ul class="list">
-            <li>
-              <h2 class="examples-title" hidden>Examples</h2>
+          <ul class="list examples">
+            <li class="examples__li">
+              <h2 class="examples__title" hidden>Examples</h2>
             </li>
-            <li>
-              <ul class="list examples-list">
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+            <li class="examples__li">
+              <ul class="list examples__list">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/Technockrack.jpg"
                         alt="Разработка сайта"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">Технокряк</h3>
-                      <p class="examples-list-position">Веб-сайт</p>
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">Технокряк</h3>
+                      <p class="examples__desc">Веб-сайт</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/poster.jpg"
                         alt="Игроки в баскетбол"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Постер <span lang="en">New Orlean vs Golden Star</span>
                       </h3>
-                      <p class="examples-list-position">Дизайн</p>
+                      <p class="examples__desc">Дизайн</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/restaurant.jpg"
                         alt="Основан в 2001 году"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Ресторан <span lang="en">Seafood</span>
                       </h3>
-                      <p class="examples-list-position">Приложение</p>
+                      <p class="examples__desc">Приложение</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/prime.jpg"
                         alt="Наушники"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Проект <span lang="en">Prime</span>
                       </h3>
-                      <p class="examples-list-position">Маркетинг</p>
+                      <p class="examples__desc">Маркетинг</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/boxes.jpg"
                         alt="Коробки"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Проект <span lang="en">Boxes</span>
                       </h3>
-                      <p class="examples-list-position">Приложение</p>
+                      <p class="examples__desc">Приложение</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/inspiration.jpg"
                         alt="Монитор"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle" lang="en">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle" lang="en">
                         Inspiration has no Borders
                       </h3>
-                      <p class="examples-list-position">Веб-сайт</p>
+                      <p class="examples__desc">Веб-сайт</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/limited_edition.jpg"
                         alt="Редкая книга"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Издание <span lang="en">Limited Edition</span>
                       </h3>
-                      <p class="examples-list-position">Дизайн</p>
+                      <p class="examples__desc">Дизайн</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/lab.jpg"
                         alt="Бирка LAB EL TAB"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle">
                         Проект <span lang="en">LAB</span>LAB
                       </h3>
-                      <p class="examples-list-position">Маркетинг</p>
+                      <p class="examples__desc">Маркетинг</p>
                     </div>
                   </a>
                 </li>
-                <li class="examples-list-item">
-                  <a class="link examples-link" href="#">
-                    <div class="examples-two-layer">
+                <li class="examples__item">
+                  <a class="link examples__link" href="#">
+                    <div class="examples__layer">
                       <img
-                        class="examples-list-img"
+                        class="examples__img examples__img--position"
                         src="./images/exsamples/growing_business.jpg"
                         alt="Работа за ноутбуком"
                         width="370"
                         height="294"
                       />
-                      <p class="exemples-second-layer-text">
+                      <p class="exemples__text">
                         Ресурс предлагает комплексные предложения с разным
                         уровнем функционала и сервисов. Все это позволит
                         посетителю получить исчерпывающие сведения о компании
                         или частном лице.
                       </p>
                     </div>
-                    <div class="examples-box">
-                      <h3 class="examples-list-name subtitle" lang="en">
+                    <div class="examples__box">
+                      <h3 class="examples__name subtitle" lang="en">
                         Growing Business
                       </h3>
-                      <p class="examples-list-position">Приложение</p>
+                      <p class="examples__desc">Приложение</p>
                     </div>
                   </a>
                 </li>
@@ -325,21 +337,21 @@
     </main>
     <!--FOOTER-->
     <footer class="footer">
-      <div class="container footer-flex">
-        <div class="footer-box footer-contacts">
+      <div class="container footer--position">
+        <div class="footer__box">
           <a
-            class="link logo"
+            class="link logo logo--wite"
             href="./index.html"
             title="Перейти на главную страницу"
             lang="en"
           >
-            <span class="logo-part">Web</span>Studio</a
+            <span class="logo--blue">Web</span>Studio</a
           >
-          <address class="address">
+          <address class="address address--position">
             <ul class="list">
-              <li class="address-list">
+              <li class="address__item">
                 <a
-                  class="link contacts-list-link contacts-footer footer-address"
+                  class="link address__link address__link--white"
                   href="https://goo.gl/maps/PbqtYwgtNbgsAqmw5"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -348,18 +360,18 @@
                   г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="address-list">
+              <li class="address__item">
                 <a
-                  class="link contacts-list-link contacts-footer footer-link"
+                  class="link address__link address__link--grey"
                   href="mailto:info@example.com"
                   title="Отправить письмо"
                 >
                   info@example.com</a
                 >
               </li>
-              <li class="address-list">
+              <li class="address__item">
                 <a
-                  class="link contacts-list-link contacts-footer footer-link"
+                  class="link address__link address__link--grey"
                   href="tel:0991111111"
                   title="Набрать номер"
                   >+38 099 111 11 11
@@ -368,78 +380,82 @@
             </ul>
           </address>
         </div>
-        <div class="footer-box footer-icon-box">
-          <h3 class="benefits-head footer-title">ПРИСОЕДИНЯЙТЕСЬ</h3>
-          <ul class="list list-icon">
-            <li class="social-link-icon">
+        <div class="footer__box">
+          <h3 class="caption footer__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+          <ul class="list social__list social__list--dark">
+            <li class="social__item">
               <a
-                class="link social-link"
+                class="link social__link social__link--dark"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Перейти на страничку Instagram"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-icon">
+            <li class="social__item">
               <a
-                class="link social-link"
+                class="link social__link social__link--dark"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Перейти на страничку Twitter"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-icon">
+            <li class="social__item">
               <a
-                class="link social-link"
+                class="link social__link social__link--dark"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Перейти на страничку Facebook"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-icon">
+            <li class="social__item">
               <a
-                class="link social-link"
+                class="link social__link social__link--dark"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="Перейти на страничку Linkedin"
               >
-                <svg class="social-icon" width="20" height="20">
+                <svg class="social__icon" width="20" height="20">
                   <use href="./images/svg/icons.svg#linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="footer-box footer-action">
-          <b class="benefits-head footer-title">Подпишитесь на рассылку</b>
-          <form class="footer-box-action" autocomplete="on">
-            <label class="footer-label-email" lang="en">
+        <div class="footer__box footer__box--grow">
+          <strong class="caption footer__title">Подпишитесь на рассылку</strong>
+          <form class="footer__action" autocomplete="on">
+            <label class="action__label" lang="en">
               <input
-                class="footer-input-email"
+                class="action__input"
                 type="email"
                 name="mail"
                 placeholder="E-mail"
               />
             </label>
 
-            <button class="modal-btn footer-bnt-action" type="submit">
+            <button class="btn action__bnt--position" type="submit">
               Подписаться
-              <svg class="btn-telegram" width="24" height="24">
+              <svg
+                class="btn__telegram btn__telegram--position"
+                width="24"
+                height="24"
+              >
                 <use href="./images/svg/icons.svg#telegram"></use>
               </svg>
             </button>
